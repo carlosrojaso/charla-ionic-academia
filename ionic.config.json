@@ -1,0 +1,7 @@
+{
+  "name": "charla-ionic-academia",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
