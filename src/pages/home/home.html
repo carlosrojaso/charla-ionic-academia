@@ -5,6 +5,8 @@
 </ion-header>
 
 <ion-content padding class="home">
-  <h2>Welcome to Firebase 3 Auth Starter!</h2>
-  <button ion-button small clear (click)="logOut()">Logout</button>
+  {{ character | json }}
+  <p text-center><button ion-button (click)="shuffle()" color="light">Shuffle</button></p>
+
+    <button ion-button small clear (click)="logOut()">Logout</button>
 </ion-content>
